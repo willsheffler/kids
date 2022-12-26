@@ -1,0 +1,17 @@
+name: kids
+channels:
+ - conda-forge
+dependencies:
+ - python
+ - numpy
+ - numba
+ - tqdm
+ - yapf
+ - pytest
+ - seaborn
+ - ipython
+ - pandas
+ - pip
+ - pip:
+   - pytest-sugar
+   - deferred-import
